@@ -8,7 +8,7 @@ public class BulletFire : MonoBehaviour
     GameObject bulletFire;
 
     [SerializeField]
-    float timer = 1f;
+    float fireRate = 0.15f;
 
     bool canFire = true;
 
@@ -25,7 +25,7 @@ public class BulletFire : MonoBehaviour
 
             GameObject bullet = Instantiate(bulletFire, transform.position, transform.rotation);
 
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(fireRate);
 
             canFire = true;
         }
