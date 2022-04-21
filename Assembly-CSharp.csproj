@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\GunPosition.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\BulletFire.cs" />
     <Compile Include="Assets\Scripts\BulletMovement.cs" />
   </ItemGroup>
