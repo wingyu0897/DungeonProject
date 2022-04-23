@@ -213,12 +213,17 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 6.51, y: -13.47, z: -1.1}
+=======
+  m_LocalPosition: {x: 0, y: 0, z: -1.1}
+>>>>>>> main
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &577251826
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,6 +269,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> main
 --- !u!1 &1097306908
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,6 +315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletFire: {fileID: 2981322144300463680, guid: f750348eacec8184ca9f9944a63d606e, type: 3}
+<<<<<<< HEAD
   fireRate: 0.15
 --- !u!1 &1267138954
 GameObject:
@@ -5139,6 +5147,9 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+=======
+  timer: 1
+>>>>>>> main
 --- !u!1 &1272694525
 GameObject:
   m_ObjectHideFlags: 0
@@ -5297,6 +5308,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1731599599
 GameObject:
   m_ObjectHideFlags: 0
@@ -5379,6 +5391,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> main
 --- !u!1 &1737446704
 GameObject:
   m_ObjectHideFlags: 0
@@ -5456,7 +5470,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1737446704}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 6.71, y: -13.370001, z: 0}
+=======
+  m_LocalPosition: {x: 0.2, y: -0.1, z: 0}
+>>>>>>> main
   m_LocalScale: {x: 0.8, y: 0.3, z: 1}
   m_Children:
   - {fileID: 1097306909}
@@ -5475,6 +5493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 779094d23bfdb8b4e808301f3658e4e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!1 &1925999465
 GameObject:
   m_ObjectHideFlags: 0
@@ -7644,3 +7663,5 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+=======
+>>>>>>> main

@@ -24,6 +24,7 @@ public class BulletMovement : MonoBehaviour
 
         transform.position += dir.normalized * speed * Time.deltaTime;
     }
+<<<<<<< HEAD
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -33,4 +34,6 @@ public class BulletMovement : MonoBehaviour
         }
         
     }
+=======
+>>>>>>> main
 }

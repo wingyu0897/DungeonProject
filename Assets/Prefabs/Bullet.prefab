@@ -11,7 +11,10 @@ GameObject:
   - component: {fileID: 3152520020966614459}
   - component: {fileID: 5388817447169665285}
   - component: {fileID: 465908475436564072}
+<<<<<<< HEAD
   - component: {fileID: 1186936054875391882}
+=======
+>>>>>>> main
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -96,6 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9d1082fc3539d45bba1c5b53ac5a0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   speed: 20
 --- !u!61 &1186936054875391882
 BoxCollider2D:
@@ -123,3 +127,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+=======
+  speed: 40
+>>>>>>> main
