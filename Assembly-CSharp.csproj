@@ -9,7 +9,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
+<<<<<<< HEAD
+    <ProjectGuid>{4749A396-4963-0376-3FA6-848A359A9429}</ProjectGuid>
+=======
     <ProjectGuid>{74EE9FAC-71AB-3870-0D5E-CA329F63963F}</ProjectGuid>
+>>>>>>> main
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,8 +60,15 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <Compile Include="Assets\Scripts\BulletFire.cs" />
     <Compile Include="Assets\Scripts\GunPosition.cs" />
+    <Compile Include="Assets\Scripts\BulletMovement.cs" />
+=======
+    <Compile Include="Assets\Scripts\GunPosition.cs" />
+>>>>>>> main
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\BulletFire.cs" />
