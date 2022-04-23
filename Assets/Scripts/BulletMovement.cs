@@ -24,4 +24,13 @@ public class BulletMovement : MonoBehaviour
 
         transform.position += dir.normalized * speed * Time.deltaTime;
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject == GameObject.FindGameObjectWithTag("Wall"))
+        {
+            Destroy(gameObject);
+        }
+        
+    }
 }
